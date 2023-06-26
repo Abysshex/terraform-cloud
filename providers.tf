@@ -5,16 +5,18 @@ terraform {
       source  = "hashicorp/aws"
       version = ">=4.36.0, <4.47.0, !=4.43.0"
     }
-        random = {
-      source = "hashicorp/random"
+    random = {
+      source  = "hashicorp/random"
       version = "3.5.1"
     }
   }
 }
-  
+
 
 provider "aws" {
-  region = "us-east-1"
+  region     = "us-east-1"
+  access_key = var.acces_keyaws
+  secret_key = var.secret_accesskey
   default_tags {
     tags = var.tags
   }
