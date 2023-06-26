@@ -45,11 +45,11 @@ variable "ingress_ports_list" {
 }
 
 
-variable "acces_keyaws"{
+variable "acces_key"{
   description = "Access Key AWS"
 }
 
-variable "secret_accesskey" {
+variable "secret_key"{
   description = "Secret Access Key AWS"
-  
+
 }
