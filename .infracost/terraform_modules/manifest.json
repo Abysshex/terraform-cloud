@@ -1,0 +1,1 @@
+{"Path":"c:\\Users\\bang-\\Documents\\Curso Terraform\\practica\\terraform-cloud","Version":"2.0","Modules":[{"Key":"mybucket","Source":"./Modulos/s3","Dir":"Modulos\\s3"}]}
